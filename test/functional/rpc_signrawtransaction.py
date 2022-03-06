@@ -118,7 +118,6 @@ class SignRawTransactionsTest(BitcoinTestFramework):
         ]
 
         outputs = {'mpLQjfK79b7CCV4VMJWEWAj5Mpx8Up5zxB': 0.1}
-        #this to sendrawtransaction
         rawTx = self.nodes[0].createrawtransaction(inputs, outputs)
 
         # Make sure decoderawtransaction is at least marginally sane
